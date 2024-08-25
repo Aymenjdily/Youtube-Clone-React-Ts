@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const actions = [
-    { src: "/src/assets/icons/upload.svg" },
-    { src: "/src/assets/icons/grid.svg" },
-    { src: "/src/assets/icons/notification.svg" },
+    { src: "/assets/icons/upload.svg" },
+    { src: "/assets/icons/grid.svg" },
+    { src: "/assets/icons/notification.svg" },
   ];
 
   return (
@@ -26,12 +26,12 @@ const Header = () => {
         </Sheet>
         <Link to={"/"}>
           <img
-            src="/src/assets/logo-white.svg"
+            src="/assets/logo-white.svg"
             alt="logo"
             className="w-[80px] dark:hidden block"
           />
           <img
-            src="/src/assets/logo-black.svg"
+            src="/assets/logo-black.svg"
             alt="logo"
             className="w-[80px] dark:block hidden"
           />
@@ -51,7 +51,7 @@ const Header = () => {
           ))}
         </div>
         <img
-          src="/src/assets/person.jpg"
+          src="/assets/person.jpg"
           alt="person"
           className="w-[32px] lg:ml-6 h-[32px] rounded-full object-cover cursor-pointer"
         />

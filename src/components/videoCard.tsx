@@ -28,7 +28,7 @@ const VideoCard = ({ video }: VideoProps) => {
       <Link to={`/video/${id.videoId}`}>
         <div className="relative">
           <img
-            src={snippet?.thumbnails?.high?.url ? snippet?.thumbnails?.high?.url : "/src/assets/youtube.jpg"}
+            src={snippet?.thumbnails?.high?.url ? snippet?.thumbnails?.high?.url : "/assets/youtube.jpg"}
             alt={snippet.title}
             className="w-full object-cover aspect-video"
           />
