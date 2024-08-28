@@ -25,7 +25,7 @@ const SearchBar = () => {
         onClick={handleSearchValue}
       >
         <img
-          src="/src/assets/icons/search.svg"
+          src="/assets/icons/search.svg"
           alt="search-icon"
           className="size-4"
         />

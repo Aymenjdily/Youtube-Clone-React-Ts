@@ -7,7 +7,7 @@ const SideBar = () => {
   const { setCategory, category } = useStore();
 
   return (
-    <div className="px-5 flex justify-between flex-col w-64">
+    <div className="px-5 flex justify-between flex-col w-64 lg:fixed bg-background z-[99999]">
       <div className="flex flex-col gap-y-4">
         <button
           onClick={() => setCategory("New")}

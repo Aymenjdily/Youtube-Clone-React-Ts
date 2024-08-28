@@ -20,7 +20,7 @@ createRoot(document.getElementById("root")!).render(
             <div className="lg:block hidden">
               <SideBar />
             </div>
-            <main className="bg-[#F9F9F9] dark:bg-background w-full">
+            <main className="bg-[#F9F9F9] dark:bg-background w-full lg:pl-[300px]">
               <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="/video/:id" element={<SingleVideoPage />} />
